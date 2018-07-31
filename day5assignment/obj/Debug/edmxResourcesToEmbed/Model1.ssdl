@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="studentinformationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="studentinformation">
+    <Key>
+      <PropertyRef Name="Rollno" />
+    </Key>
+    <Property Name="Rollno" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="dob" Type="datetime" Nullable="false" />
+    <Property Name="gender" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="department" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="course" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="semester" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="saddress" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="phonenumber" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="studentinformationModelStoreContainer">
+    <EntitySet Name="studentinformation" EntityType="Self.studentinformation" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

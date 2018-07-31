@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="studentinformationModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="studentinformation">
+    <Key>
+      <PropertyRef Name="Rollno" />
+    </Key>
+    <Property Name="Rollno" Type="Int32" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="dob" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="gender" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="department" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="course" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="semester" Type="String" MaxLength="7" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="saddress" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="phonenumber" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="studentinformationEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="studentinformations" EntityType="Self.studentinformation" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,13 @@
+c:\users\nexwave\documents\visual studio 2015\Projects\day5assignment\day5assignment\bin\Debug\day5assignment.exe.config
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\day5assignment.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\day5assignment.pdb
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\EntityFramework.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\EntityFramework.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.csprojResolveAssemblyReference.cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.Form1.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.Properties.Resources.resources
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.csproj.GenerateResource.Cache
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.exe
+C:\Users\nexwave\Documents\Visual Studio 2015\Projects\day5assignment\day5assignment\obj\Debug\day5assignment.pdb
